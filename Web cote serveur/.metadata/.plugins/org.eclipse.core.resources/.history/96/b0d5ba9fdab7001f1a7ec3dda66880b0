@@ -1,0 +1,12 @@
+<html>
+<head><title>Ajouter un Contact</title></head>
+<body>
+<h1>Ajouter un Contact</h1>
+<form method="post" action="directory">
+    <label>Prénom: <input type="text" name="firstName" required></label><br>
+    <label>Nom: <input type="text" name="lastName" required></label><br>
+    <label>Téléphone: <input type="text" name="phoneNumber" required></label><br>
+    <button type="submit">Ajouter</button>
+</form>
+</body>
+</html>

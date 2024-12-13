@@ -1,0 +1,56 @@
+package com.zohair.controller;
+
+import com.zohair.model.Contact;
+import com.zohair.model.DirectoryManager;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+
+@WebServlet("/directory")
+public class DirectoryServlet extends HttpServlet {
+    private DirectoryManager directoryManager;
+
+    @Override
+    public void init() throws ServletException {
+        directoryManager = new DirectoryManager();
+        String filePath = getServletContext().getRealPath("/WEB-INF/contacts/contacts.txt");
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            List<Contact> initialContacts = new ArrayList<>();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] data = line.split(",");
+                if (data.length == 3) {
+                    initialContacts.add(new Contact(data[0].trim(), data[1].trim(), data[2].trim()));
+                }
+            }
+            directoryManager.loadContacts(initialContacts);
+        } catch (IOException e) {
+            throw new ServletException("Erreur lors du chargement des contacts", e);
+        }
+    }
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setAttribute("contacts", directoryManager.getContacts());
+        request.getRequestDispatcher("/directory.jsp").forward(request, response);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String firstName = request.getParameter("firstName");
+        String lastName = request.getParameter("lastName");
+        String phoneNumber = request.getParameter("phoneNumber");
+
+        Contact newContact = new Contact(firstName, lastName, phoneNumber);
+        directoryManager.addContact(newContact);
+
+        response.sendRedirect("directory");
+    }
+}

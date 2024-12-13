@@ -1,0 +1,27 @@
+package com.zohair.model;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class DirectoryManager {
+    private List<Contact> contacts = new ArrayList<>();
+
+    public void addContact(Contact contact) {
+        contacts.add(contact);
+        sortContacts();
+    }
+
+    private void sortContacts() {
+        contacts.sort(Comparator.comparing(Contact::getLastName).thenComparing(Contact::getFirstName));
+    }
+
+    public List<Contact> getContacts() {
+        return contacts;
+    }
+
+    public void loadContacts(List<Contact> initialContacts) {
+        contacts.addAll(initialContacts);
+        sortContacts();
+    }
+}

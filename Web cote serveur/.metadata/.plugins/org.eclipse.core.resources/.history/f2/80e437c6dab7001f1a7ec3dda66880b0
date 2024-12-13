@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accueil - Répertoire de Contacts</title>
+</head>
+<body>
+    <h1>Bienvenue dans le Répertoire de Contacts</h1>
+    <p>Utilisez les options ci-dessous pour naviguer dans l'application :</p>
+    <ul>
+        <li><a href="directory.jsp">Voir la liste des contacts</a></li>
+        <li><a href="new_contact.jsp">Ajouter un nouveau contact</a></li>
+    </ul>
+</body>
+</html>
