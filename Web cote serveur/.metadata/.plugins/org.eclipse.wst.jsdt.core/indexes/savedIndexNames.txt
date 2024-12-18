@@ -1,9 +1,7 @@
-INDEX VERSION 1.4+/home/UR/rhomazoh/master2/Web cote serveur/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-4096052324.index
-2282620410.index
-563108498.index
-1922698543.index
-415600953.index
-2854674228.index
-92758024.index
-4094482740.index
+INDEX VERSION 1.4+D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2167174391.index
+2437397778.index
+2374424134.index
+3921926972.index
+2634566339.index
+2395670439.index

@@ -1,0 +1,32 @@
+"La horde du contrevent","Alain Damasio","One of the best science fantasy book I've ever read",4.45
+"Letter to Menoeceus","Epicurus","How about some philosophical material?",3.81
+"The Shining","Stephen King","",4.26
+"It","Stephen King","",4.25
+"Carrie","Stephen King","",3.98
+"Solar Lottery","Philip K. Dick","The first book of PKD and one of the best",3.5
+"Do Androids Dream of Electric Sheep?","Philip K. Dick","A must for anyone who loves science fiction",4.09
+"The Man in the High Castle","Philip K. Dick","This one's a classic of alternative history scifi",3.61
+"Maus","Art Spiegelman","one hell of a comic book",4.56
+"Madame Bovary","Gustave Flaubert","",3.69
+"Confessions","Jean-Jacques Rousseau","Boriiiiiiiing",3.59
+"Harry Potter and the Philosopher's Stone","J.K. Rowling","",4
+"The Hobbit","J.R.R. Tolkien","This is a classic. To be read first.",4.28
+"The Fellowship of the Ring","J.R.R. Tolkien","The door to another dimension",4.38
+"The Two Towers","J.R.R. Tolkien","The epic journey continue",4.47
+"The Return of the King","J.R.R. Tolkien","Last but not least",4.55
+"Antigone","Sophocles","",3.67
+"And then there were none","Agatha Christie","This book is always a treat",4.28
+"Harry Potter and the Chamber of Secrets","J.K. Rowling","",4
+"Charlie and the Chocolate Factory","Roald Dahl","A little return to childhood that always feels good",4.15
+"The da Vinci Code","Dan Brown","A new breed of lightning-paced intelligent thriller",3.92
+"Harry Potter and the Prisoner of Azkaban","J.K. Rowling","",4
+"Gödel Escher Bach: An Eternal Golden Braid","Douglas R. Hofstadter","wonderful exploration of fascinating ideas at the heart of cognitive science",4.29
+"War and peace","Leo Tolstoy","Oh dear god why?!",4.16
+"The call of the wild","Jack London","",3.91
+"Harry Potter and the Goblet of Fire","J.K. Rowling","",4
+"Les misérables","Victor Hugo","Long but beautiful",4.21
+"Harry Potter and the Order of the Phoenix","J.K. Rowling","",4
+"The Iliad","Homer","",3.91
+"Harry Potter and the Half-Blood Prince","J.K. Rowling","",4
+"Harry Potter and the Deathly Hallows","J.K. Rowling","",4
+"1984","George Orwell","Terrifying brutal intricate prophetic GENIUS!",4.19

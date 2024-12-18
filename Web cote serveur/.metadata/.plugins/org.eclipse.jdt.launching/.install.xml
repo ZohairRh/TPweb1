@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="C:\Program Files\Java\jdk-17" stamp="1726669739705"/>
     <entry loc="/home/UR/rhomazoh/Téléchargements/eclipse-jee-2024-06-R-linux-gtk-x86_64/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.3.v20240426-1530" stamp="1717681954703"/>
     <entry loc="/usr/lib/jvm/java-17-openjdk-amd64" stamp="1733491832810"/>
+    <entry loc="C:\Program Files\Java\jdk-23" stamp="1726670023146"/>
     <entry loc="/usr/lib/jvm/java-8-openjdk-amd64" stamp="1733491625144"/>
     <entry loc="/usr/lib/jvm/java-11-openjdk-amd64" stamp="1733491743918"/>
     <entry loc="/home/UR/rhomazoh/Téléchargements/eclipse-jee-2024-06-R-linux-gtk-x86_64/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.3.v20240426-1530/jre" stamp="1717681954702"/>
