@@ -1,0 +1,30 @@
+h1 {
+    margin: 20px 0 20px 0; 
+    color: #18203d;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: center; 
+}
+
+button {
+    padding: 0.5em 0.7em;
+    border: 1px solid #18203d;
+    border-radius: 0.375rem;
+    margin: 20px 0 0 0; 
+    color: #18203d;
+    background-color: white; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #18203d;
+    color: white;
+}

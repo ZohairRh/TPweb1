@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ContactDirectory1" path="/ContactDirectory1" reloadable="true" source="org.eclipse.jst.jee.server:ContactDirectory1"/></Host>
+      <Context docBase="D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ContactDirectory1" path="/ContactDirectory1" reloadable="true" source="org.eclipse.jst.jee.server:ContactDirectory1"/><Context docBase="D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\contact" path="/contact" reloadable="true" source="org.eclipse.jst.jee.server:contact"/></Host>
     </Engine>
   </Service>
 </Server>

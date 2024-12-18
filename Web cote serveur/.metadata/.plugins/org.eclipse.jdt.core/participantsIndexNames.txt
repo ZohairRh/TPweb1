@@ -5,5 +5,11 @@ D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote 
 \ContactDirectory1\src\main\java
 D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\390824734.index
 \ContactDirectory\src\main\java
+D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3519187183.index
+\prepaExam\src\main\java
+D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1942677742.index
+\prepaExam\src\main\java
 \home\UR\rhomazoh\master2\Web cote serveur\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1413786767.index
 \ContactDirectory\src\main\java
+D:\Master_SIME\Master 2\S3\UE2 Web Dynamique Côté Serveur\Tps\TPweb1\Web cote serveur\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2285715779.index
+\prepaExam\src\main\java
